@@ -35,3 +35,6 @@ CREATE TABLE IF NOT EXISTS card (
 	FOREIGN KEY (updated_by) REFERENCES account (account_id)
 );
 
+
+-- INSERT INTO account (email, password, created)
+-- VALUES ('myemail', 'mypass', current_timestamp);
