@@ -7,13 +7,14 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/accounts")
+@CrossOrigin(origins = "http://localhost:4200")
+// @RequestMapping("/accounts")
 public class AccountController {
   @Autowired
   private AccountService accountService;
 
   // Get all users
-  @GetMapping
+  @GetMapping("/accounts")
   public List<Account> getAllAccounts() {
     return accountService.getAllAccounts();
   }
