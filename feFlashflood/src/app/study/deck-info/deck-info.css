@@ -1,0 +1,16 @@
+.deck-card {
+  border: 1px grey solid;
+  border-radius: 4px;
+  margin: 15px;
+  transition: transform 800ms, box-shadow 200ms;
+}
+
+.deck-card:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 5px;
+}
+
+.deck-card.selected {
+  transform: skew(-12deg);
+  box-shadow: 3px 3px 3px;
+}

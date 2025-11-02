@@ -1,2 +1,2 @@
-export class AccountModel {
+export class Account {
 }

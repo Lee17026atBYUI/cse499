@@ -1,1 +1,18 @@
-<p>study works!</p>
+<div class="container">
+  <div class="row">
+    <div class="jumbotron">
+      <h1>Get to studying!</h1>
+      <p>This is it. Time to put your knowledge to the test. Select your decks and (say it with me now) BRING IT ON!</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-5">
+      <div class="btn btn-info btn-block btn-large" routerLink="/study_time">Bring on the Flood!</div>
+    </div>
+  </div>
+  <div class="row">
+    @for (deck of allDecks; track deck.id) {
+      <flashflood-deck-info [deck]="deck"></flashflood-deck-info>
+    }
+  </div>
+</div>

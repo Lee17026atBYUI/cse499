@@ -38,4 +38,12 @@ public class Account {
   public void setCreated(Date date) {
     this.created = date;
   }
+
+  public String getPassword() {
+    return password;
+  }
+
+  public void setPassword(String password) {
+    this.password = password;
+  }
 }

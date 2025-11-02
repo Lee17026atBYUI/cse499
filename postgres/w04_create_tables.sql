@@ -38,3 +38,79 @@ CREATE TABLE IF NOT EXISTS card (
 
 -- INSERT INTO account (email, password, created)
 -- VALUES ('myemail', 'mypass', current_timestamp);
+
+-- INSERT INTO deck (
+-- 	account_id, 
+-- 	name, 
+-- 	created, 
+-- 	created_by, 
+-- 	updated, 
+-- 	updated_by
+-- 	) VALUES (
+-- 		1,
+-- 		'first deck',
+-- 		current_timestamp,
+-- 		1,
+-- 		current_timestamp,
+-- 		1
+-- 	);
+
+-- INSERT INTO card (
+-- 	deck_id,
+-- 	front,
+-- 	back,
+-- 	created,
+-- 	created_by,
+-- 	updated,
+-- 	updated_by
+-- ) VALUES (
+-- 	1,
+-- 	'this is the front',
+-- 	'over here we have the back',
+-- 	current_timestamp,
+-- 	1,
+-- 	current_timestamp,
+-- 	1
+-- );
+
+-- INSERT INTO card (
+-- 	deck_id,
+-- 	front,
+-- 	back,
+-- 	created,
+-- 	created_by,
+-- 	updated,
+-- 	updated_by
+-- ) VALUES (
+-- 	1,
+-- 	'Moses 1:39',
+-- 	'For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man.',
+-- 	current_timestamp,
+-- 	1,
+-- 	current_timestamp,
+-- 	1
+-- ),(
+-- 	1,
+-- 	'Fromage',
+-- 	'Cheese!',
+-- 	current_timestamp,
+-- 	1,
+-- 	current_timestamp,
+-- 	1
+-- ),(
+-- 	1,
+-- 	'Mammal',
+-- 	'Milk-producing vertebrates with fur/hair.',
+-- 	current_timestamp,
+-- 	1,
+-- 	current_timestamp,
+-- 	1
+-- ),(
+-- 	1,
+-- 	'Pi',
+-- 	"Let's just round to 3, don't tell anyone.",
+-- 	current_timestamp,
+-- 	1,
+-- 	current_timestamp,
+-- 	1
+-- );

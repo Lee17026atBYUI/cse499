@@ -9,23 +9,23 @@ import { DataStorageService } from './shared/data-storage.service';
 })
 export class App implements OnInit {
   protected readonly title = signal('flashflood');
-  private dataStorageService = inject(DataStorageService);
+  // private dataStorageService = inject(DataStorageService);
 
-  accounts;
+  // accounts;
 
   ngOnInit() {
-    this.accounts = this.dataStorageService.getAccounts();
-    this.accounts.subscribe(
-      response => {
-        console.log('next', response);
-      },
-      error => {
-        console.log('error', error);
-      },
-      complete => {
-        console.log('complete');
-      }
-    );
+    // this.accounts = this.dataStorageService.getAccounts();
+    // this.accounts.subscribe(
+    //   response => {
+    //     console.log('next', response);
+    //   },
+    //   error => {
+    //     console.log('error', error);
+    //   },
+    //   complete => {
+    //     console.log('complete');
+    //   }
+    // );
     // console.log('we tried to get accounts', this.accounts);
   }
 }

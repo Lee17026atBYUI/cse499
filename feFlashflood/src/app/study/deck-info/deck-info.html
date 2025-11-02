@@ -1,0 +1,4 @@
+<div class="col-md-4 deck-card" (click)="selectDeck()" [class.selected]="selected">
+  <h1>{{deck?.name}}</h1>
+  <p>Created on {{deck?.created | date}}</p>
+</div>
